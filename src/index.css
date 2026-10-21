@@ -13,7 +13,7 @@ body{
 }
 
 #root {
-    height: 57rem;
+    height: 54rem;
     width: 330px;
     background-color: rgb(29, 29, 29);
     color: white;
@@ -21,8 +21,12 @@ body{
 }
 
 .profile-picture{
-    border-radius: 20px 20px 0px 0px;
+    display: block;
+    height: 300px;
     width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px 20px 0px 0px;
 }
 .info > p{
     margin: 0;
